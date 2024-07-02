@@ -1,12 +1,21 @@
 // TODO: Crear nav , footer , main
 import './App.css'
+import { Nav } from "../components/Nav"
+import { Header } from '../components/Header'
+import { About } from '../components/About'
+import { Technologies } from '../components/Technologies'
+import { Projects } from '../components/Projects'
 
 function App() {
 
   return (
     // * PÁGINA PRINCIPAL DEL LAYOUT
-    <div className='h-full w-[60%] bg-blue-300'>
-      <h1 className='text-2xl'>COOMING SOON...</h1>
+    <div className='w-full md:w-[80%] xl:w-[60%] md:space-y-2'>
+      <Nav></Nav>
+      <Header></Header>
+      <About></About>
+      <Technologies></Technologies>
+      <Projects></Projects>
     </div>
   )
 }
