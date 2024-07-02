@@ -1,10 +1,8 @@
 export function TechnologyCard({children}){
 
-    return (
-
-        <div className="h-16 w-[45%] m-2 border-2 border-white flex justify-center items-center text-white font-bold bg-gray-500 lg:hover:bg-white lg:hover:text-gray-500">
-            <p>{children}</p>
+    return(
+        <div className=" bg-white border-2 m-3 border-gray-800 md:hover:bg-gray-400 p-2 max-h-10 font-bold md:hover:text-white md:transition-all md:ease-in-out text-gray-800 rounded-md md:text-[20px] text-[12px] flex items-center cursor-default">
+            <p className="mx-5">{children}</p>
         </div>
     )
-    
 }

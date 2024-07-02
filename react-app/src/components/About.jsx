@@ -1,12 +1,12 @@
 import { Description } from "./Description"
-import { Technology } from "./Technology"
+import { Experince } from "./Experience"
 
 export function About(){
 
     return (
-        <div className="md:flex lg:space-x-2">
+        <div className="md:flex md:space-x-2">
             <Description></Description>
-            <Technology></Technology>
+            <Experince></Experince>
         </div>
     )
 

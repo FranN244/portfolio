@@ -1,7 +1,7 @@
 export function Description(){
 
     return( 
-        <div className="md:w-[50%] p-4 md:bg-gray-300 lg:rounded-md bg-gray-50">
+        <div className="md:w-[50%] p-4 md:rounded-md ">
             <div className="">
                 <p className="md:text-[30px] text-[22px] font-bold font-serif">About</p>
             </div>
