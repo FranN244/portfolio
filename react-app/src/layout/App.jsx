@@ -16,7 +16,6 @@ function App() {
       <Header></Header>
       <About></About>
       <Technologies></Technologies>
-      <Projects></Projects>
       <Footer></Footer>
     </div>
   )
