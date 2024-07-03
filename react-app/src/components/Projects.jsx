@@ -14,7 +14,7 @@ export function Projects({projects}){
 
     return(
 
-        <div>
+        <div id="projects-div">
             <div className="h-20 flex items-center justify-center">
                 <p className="md:text-[30px] text-[22px] font-bold font-serif text-gray-800">Proyectos</p>
             </div>

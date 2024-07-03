@@ -6,9 +6,9 @@ export function ProjectCard({children,description,imgPath,url,technologies}){
 
     return(
 
-        <div className="h-[500px] border-2 border-gray-800">
-            <div className="h-[60%]">
-                <img src={"/src/assets/" + imgPath} alt="Project Image" className="h-[100%]"/>
+        <div className="h-[500px] border-2 border-gray-800 group">
+            <div className="h-[60%] overflow-hidden">
+                <img src={"/src/assets/" + imgPath} alt="Project Image" className="h-[100%] group-hover:scale-110 transition-transform ease-in-out duration-200"/>
             </div>
             <div className="h-[40%] bg-gray-300 border-t-2 border-gray-800 p-4 space-y-1">
                 <h2 className="text-gray-800 font-bold text-[22px] font-serif h-[20%]">{children}</h2>
