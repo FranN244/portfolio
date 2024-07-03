@@ -4,7 +4,6 @@ import { Nav } from "../components/Nav"
 import { Header } from '../components/Header'
 import { About } from '../components/About'
 import { Technologies } from '../components/Technologies'
-import { Projects } from '../components/Projects'
 import { Footer } from "../components/Footer"
 
 function App() {

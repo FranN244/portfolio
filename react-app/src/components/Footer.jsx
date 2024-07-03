@@ -1,7 +1,7 @@
 export function Footer(){
 
     return(
-        <footer className="h-[75px] flex justify-center items-center">
+        <footer className="h-[75px] flex justify-center items-center" id="contact-div">
             <ul className="text-white flex space-x-4">
                 <li>
                     <a href="mailto:20fran04@gmail.com">
