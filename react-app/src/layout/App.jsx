@@ -11,13 +11,14 @@ function App() {
 
   return (
     // * PÁGINA PRINCIPAL DEL LAYOUT
-    <div className='w-full md:w-[80%] xl:w-[60%] md:space-y-2'>
-      <Nav></Nav>
-      <Header></Header>
-      <About></About>
-      <Technologies></Technologies>
-      <Projects></Projects>
-      <Footer></Footer>
+    <div className='w-[100vw] h-[100vh] flex justify-center overflow-x-hidden'>
+      <div className='md:w-[80%] xl:w-[60%] md:space-y-2 h-full'>
+        <Nav></Nav>
+        <Header></Header>
+        <About></About>
+        <Technologies></Technologies>
+        <Footer></Footer>
+      </div>
     </div>
   )
 }
